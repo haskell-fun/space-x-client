@@ -1,0 +1,14 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "space-x-client:lib"
+
+    - path: "./app/Main.hs"
+      component: "space-x-client:exe:space-x-client-exe"
+
+    - path: "./app/Paths_haskell_toy_example.hs"
+      component: "space-x-client:exe:space-x-client-exe"
+
+    - path: "./test"
+      component: "space-x-client:test:space-x-client-test"
+
